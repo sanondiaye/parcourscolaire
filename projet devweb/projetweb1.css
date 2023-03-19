@@ -1,0 +1,148 @@
+.style-tableau {
+	border-collapse: collapse;
+	min-width: 400px;
+	width: auto;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+	margin: 50px auto;
+}
+thead tr {
+	background-color: aqua;
+}
+th, td{
+	padding: 20px 25px;
+}
+tbody tr, td, th {
+	border: 1px solid aqua;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'popins', sans-serif;
+	scroll-behavior: smooth;
+}
+p{
+	font-weight: 300;
+	color: ;
+}
+header{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	padding: 20px;
+	width: 90%;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;	
+}
+.esup{
+	color: blue;
+	font-weight: bold;
+	font-size: 2em;
+	text-decoration: none;
+}
+.cem{
+	display: flex;
+	position: relative;
+}
+.cem li{
+	list-style: none;
+}
+.cem a{
+	text-decoration: none;
+	margin-left: 100px;
+	font-weight: 700;
+}
+header .cem li a:hover{
+	color: blue;
+	border-bottom: 2px solid blue;
+}
+.elem{
+	color: #9ACD32;
+	font-weight: bold;
+	font-size: 2em;
+	text-decoration: none;
+}
+.elm{
+	display: flex;
+	position: relative;
+}
+.elm li{
+	list-style: none;
+}
+.elm a{
+	text-decoration: none;
+	margin-left: 100px;
+	font-weight: 700;
+}
+header .elm li a:hover{
+	color: blue;
+	border-bottom: 2px solid blue;
+}
+.lycée{
+	color: #FF1493;
+	font-weight: bold;
+	font-size: 2em;
+	text-decoration: none;
+}
+.lyc{
+	display: flex;
+	position: relative;
+}
+.lyc li{
+	list-style: none;
+}
+.lyc a{
+	text-decoration: none;
+	margin-left: 100px;
+	font-weight: 700;
+}
+header .lyc li a:hover{
+	color: blue;
+	border-bottom: 2px solid blue;
+}
+.image1{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.image1 .img1{
+	text-align: center;
+}
+.image1 .img1 h2{
+	color: blue;
+	font-size: 3em;
+}
+.image1 .im1{
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+.image1 .im1 .ima1{
+	width: 350px;
+	margin: 20px;
+	border: 20px solid white;
+	box-shadow: 20px 15px 350px rgba(0,0,0,0.8);
+}
+.image1 .im1 .ima1 .imma1{
+	position: relative;
+	width: 100%;
+	height: 200px;
+} 
+.image1 .im1 .ima1 .imma1 img{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.interligne{
+	line-height: 30px;
+}
